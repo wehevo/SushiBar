@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: GameAtlas2
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c85d82483e74eb24494f0afcc10ab5e0, type: 2}
+  mSprites:
+  - name: avocado
+    x: 366
+    y: 966
+    width: 692
+    height: 593
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 29
+    paddingTop: 27
+    paddingBottom: 30
+  - name: chicken-breast
+    x: 743
+    y: 2671
+    width: 726
+    height: 622
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 16
+    paddingTop: 10
+    paddingBottom: 18
+  - name: chili-powder
+    x: 1983
+    y: 935
+    width: 262
+    height: 688
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 72
+    paddingRight: 66
+    paddingTop: 24
+    paddingBottom: 8
+  - name: crab-stick
+    x: 2030
+    y: 2345
+    width: 615
+    height: 471
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 68
+    paddingRight: 67
+    paddingTop: 88
+    paddingBottom: 91
+  - name: eel
+    x: 366
+    y: 459
+    width: 750
+    height: 506
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 99
+    paddingBottom: 45
+  - name: egg
+    x: 2044
+    y: 2968
+    width: 543
+    height: 502
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 104
+    paddingRight: 103
+    paddingTop: 72
+    paddingBottom: 76
+  - name: green-teapot
+    x: 1059
+    y: 1024
+    width: 627
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 14
+    paddingTop: 49
+    paddingBottom: 39
+  - name: knife1
+    x: 1117
+    y: 355
+    width: 455
+    height: 668
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 12
+    paddingBottom: 12
+  - name: knife2
+    x: 0
+    y: 3294
+    width: 747
+    height: 802
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 21
+    paddingTop: 12
+    paddingBottom: 16
+  - name: knife3
+    x: 1470
+    y: 2817
+    width: 573
+    height: 653
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 15
+    paddingTop: 12
+    paddingBottom: 15
+  - name: lemon-teapot
+    x: 748
+    y: 3384
+    width: 624
+    height: 712
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 21
+    paddingBottom: 17
+  - name: loading
+    x: 1373
+    y: 3399
+    width: 79
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mayonnaise
+    x: 2588
+    y: 2981
+    width: 357
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 18
+    paddingTop: 27
+    paddingBottom: 8
+  - name: nori-seaweed
+    x: 1059
+    y: 1537
+    width: 681
+    height: 555
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 37
+    paddingTop: 53
+    paddingBottom: 42
+  - name: octopus
+    x: 0
+    y: 2620
+    width: 742
+    height: 673
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 4
+  - name: original-teapot
+    x: 1402
+    y: 2158
+    width: 627
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 14
+    paddingTop: 49
+    paddingBottom: 39
+  - name: red-plate
+    x: 2052
+    y: 3632
+    width: 524
+    height: 464
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 8
+    paddingBottom: 8
+  - name: rice
+    x: 0
+    y: 2202
+    width: 511
+    height: 417
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 102
+    paddingRight: 137
+    paddingTop: 107
+    paddingBottom: 126
+  - name: salmon
+    x: 744
+    y: 2093
+    width: 657
+    height: 577
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 46
+    paddingTop: 35
+    paddingBottom: 38
+  - name: shrimp
+    x: 1741
+    y: 1624
+    width: 550
+    height: 533
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 98
+    paddingRight: 102
+    paddingTop: 75
+    paddingBottom: 42
+  - name: soy-sauce
+    x: 0
+    y: 426
+    width: 365
+    height: 1133
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 14
+    paddingTop: 9
+    paddingBottom: 8
+  - name: squid
+    x: 1373
+    y: 3471
+    width: 678
+    height: 625
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 38
+    paddingRight: 34
+    paddingTop: 17
+    paddingBottom: 8
+  - name: tomato-sauce
+    x: 1687
+    y: 465
+    width: 295
+    height: 1071
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 56
+    paddingRight: 49
+    paddingTop: 27
+    paddingBottom: 8
+  - name: tuna
+    x: 0
+    y: 1560
+    width: 743
+    height: 641
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 6
+  - name: wasabi
+    x: 2577
+    y: 3630
+    width: 511
+    height: 466
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 18
+    paddingBottom: 16
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

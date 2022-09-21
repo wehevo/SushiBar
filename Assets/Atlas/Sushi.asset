@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: Sushi
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9ac0d08b3e579464fb9f2fdeb041ebd4, type: 2}
+  mSprites:
+  - name: aji
+    x: 2287
+    y: 390
+    width: 415
+    height: 286
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 39
+    paddingTop: 64
+    paddingBottom: 50
+  - name: aji-sushi
+    x: 1419
+    y: 1680
+    width: 464
+    height: 368
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 16
+    paddingTop: 32
+    paddingBottom: 0
+  - name: chicken-sushi
+    x: 468
+    y: 861
+    width: 456
+    height: 396
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 20
+    paddingTop: 4
+    paddingBottom: 0
+  - name: ebi
+    x: 2313
+    y: 699
+    width: 465
+    height: 254
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 17
+    paddingTop: 86
+    paddingBottom: 60
+  - name: ebi-sushi(shrimp)
+    x: 1382
+    y: 554
+    width: 484
+    height: 350
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 50
+    paddingBottom: 0
+  - name: egg
+    x: 1867
+    y: 677
+    width: 445
+    height: 276
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 27
+    paddingTop: 68
+    paddingBottom: 56
+  - name: egg_rice
+    x: 1369
+    y: 132
+    width: 474
+    height: 360
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 26
+    paddingRight: 0
+    paddingTop: 40
+    paddingBottom: 0
+  - name: egg_rice_seaweed
+    x: 1862
+    y: 954
+    width: 487
+    height: 344
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 4
+    paddingTop: 56
+    paddingBottom: 0
+  - name: futomaki aji
+    x: 458
+    y: 470
+    width: 467
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 20
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki ebi
+    x: 481
+    y: 1660
+    width: 481
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 6
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki kani
+    x: 913
+    y: 81
+    width: 455
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 32
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki maguro
+    x: 484
+    y: 1271
+    width: 459
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 28
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki salmon
+    x: 926
+    y: 493
+    width: 455
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 32
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki tako
+    x: 944
+    y: 1271
+    width: 455
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 32
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki tamago
+    x: 925
+    y: 882
+    width: 455
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 32
+    paddingTop: 12
+    paddingBottom: 0
+  - name: futomaki unagi
+    x: 963
+    y: 1660
+    width: 455
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 32
+    paddingTop: 12
+    paddingBottom: 0
+  - name: kani crab
+    x: 1844
+    y: 5
+    width: 455
+    height: 262
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 23
+    paddingTop: 64
+    paddingBottom: 74
+  - name: kani-sushi-(crab)
+    x: 1881
+    y: 1331
+    width: 473
+    height: 348
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 12
+    paddingTop: 52
+    paddingBottom: 0
+  - name: maguro
+    x: 2767
+    y: 1217
+    width: 421
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 44
+    paddingRight: 35
+    paddingTop: 75
+    paddingBottom: 75
+  - name: maguro-sushi-(tuna)
+    x: 1400
+    y: 1299
+    width: 480
+    height: 360
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 8
+    paddingTop: 40
+    paddingBottom: 0
+  - name: rice
+    x: 2353
+    y: 1728
+    width: 472
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 12
+    paddingTop: 60
+    paddingBottom: 20
+  - name: salmon
+    x: 2355
+    y: 1468
+    width: 431
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 38
+    paddingTop: 64
+    paddingBottom: 77
+  - name: salmon-sushi
+    x: 1381
+    y: 905
+    width: 480
+    height: 365
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 8
+    paddingTop: 35
+    paddingBottom: 0
+  - name: tako
+    x: 1844
+    y: 268
+    width: 442
+    height: 285
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 33
+    paddingTop: 51
+    paddingBottom: 64
+  - name: tako-sushi-(octopus)
+    x: 0
+    y: 1258
+    width: 483
+    height: 390
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 8
+    paddingTop: 10
+    paddingBottom: 0
+  - name: unagi
+    x: 2350
+    y: 1053
+    width: 416
+    height: 277
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 50
+    paddingRight: 34
+    paddingTop: 64
+    paddingBottom: 59
+  - name: unagi-sushi-(eel)
+    x: 1884
+    y: 1701
+    width: 468
+    height: 347
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 12
+    paddingTop: 53
+    paddingBottom: 0
+  - name: uramaki aji
+    x: 0
+    y: 859
+    width: 467
+    height: 398
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 11
+    paddingTop: 2
+    paddingBottom: 0
+  - name: uramaki ebi
+    x: 0
+    y: 1649
+    width: 480
+    height: 399
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 0
+  - name: uramaki salmon
+    x: 455
+    y: 62
+    width: 457
+    height: 397
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 20
+    paddingTop: 3
+    paddingBottom: 0
+  - name: uramaki tako
+    x: 0
+    y: 460
+    width: 457
+    height: 398
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 20
+    paddingTop: 2
+    paddingBottom: 0
+  - name: uramaki unagi
+    x: 0
+    y: 59
+    width: 454
+    height: 400
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 24
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

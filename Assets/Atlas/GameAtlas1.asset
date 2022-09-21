@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: GameAtlas1
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 97a01d0052bf1ad49aad44454fd1aae5, type: 2}
+  mSprites:
+  - name: aji-sushi
+    x: 2532
+    y: 1289
+    width: 464
+    height: 368
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 16
+    paddingTop: 32
+    paddingBottom: 0
+  - name: chicken-sushi
+    x: 2072
+    y: 690
+    width: 456
+    height: 396
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 20
+    paddingTop: 4
+    paddingBottom: 0
+  - name: chilli-powder
+    x: 3641
+    y: 655
+    width: 306
+    height: 312
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 3
+  - name: credit-button
+    x: 3010
+    y: 919
+    width: 375
+    height: 389
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 41
+    paddingTop: 12
+    paddingBottom: 19
+  - name: doll1
+    x: 1590
+    y: 822
+    width: 431
+    height: 577
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 45
+    paddingRight: 24
+    paddingTop: 15
+    paddingBottom: 8
+  - name: doll2
+    x: 1767
+    y: 1476
+    width: 464
+    height: 572
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 16
+    paddingTop: 10
+    paddingBottom: 18
+  - name: ebi-sushi(shrimp)
+    x: 2716
+    y: 1698
+    width: 484
+    height: 350
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 50
+    paddingBottom: 0
+  - name: exit-button
+    x: 3027
+    y: 530
+    width: 306
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 87
+    paddingRight: 87
+    paddingTop: 13
+    paddingBottom: 19
+  - name: high-scores-button
+    x: 2022
+    y: 1087
+    width: 509
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 15
+    paddingBottom: 17
+  - name: kani-sushi-(crab)
+    x: 2553
+    y: 377
+    width: 473
+    height: 348
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 12
+    paddingTop: 52
+    paddingBottom: 0
+  - name: maguro-sushi-(tuna)
+    x: 2529
+    y: 726
+    width: 480
+    height: 360
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 8
+    paddingTop: 40
+    paddingBottom: 0
+  - name: mayonnaise
+    x: 3434
+    y: 1345
+    width: 306
+    height: 313
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 3
+  - name: options-button
+    x: 3689
+    y: 1659
+    width: 367
+    height: 389
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 56
+    paddingTop: 12
+    paddingBottom: 19
+  - name: salmon-sushi
+    x: 2072
+    y: 324
+    width: 480
+    height: 365
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 8
+    paddingTop: 35
+    paddingBottom: 0
+  - name: salty-soysauce
+    x: 2072
+    y: 10
+    width: 306
+    height: 313
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 3
+  - name: start-button
+    x: 1590
+    y: 211
+    width: 481
+    height: 610
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 19
+    paddingTop: 3
+    paddingBottom: 7
+  - name: sushi-platter1
+    x: 974
+    y: 1400
+    width: 792
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 32
+    paddingBottom: 20
+  - name: sushi-platter2
+    x: 797
+    y: 29
+    width: 792
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 32
+    paddingBottom: 20
+  - name: sushi-platter3
+    x: 797
+    y: 678
+    width: 792
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 32
+    paddingBottom: 20
+  - name: sushi-platter4
+    x: 0
+    y: 29
+    width: 796
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 32
+    paddingBottom: 20
+  - name: sushi-platter5
+    x: 0
+    y: 678
+    width: 796
+    height: 648
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 32
+    paddingBottom: 20
+  - name: tako-sushi-(octopus)
+    x: 2232
+    y: 1658
+    width: 483
+    height: 390
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 8
+    paddingTop: 10
+    paddingBottom: 0
+  - name: tamago-sushi
+    x: 3201
+    y: 1704
+    width: 487
+    height: 344
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 4
+    paddingTop: 56
+    paddingBottom: 0
+  - name: tea-lemon
+    x: 3022
+    y: 24
+    width: 367
+    height: 352
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 4
+  - name: tea-ocha
+    x: 3334
+    y: 578
+    width: 306
+    height: 340
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 5
+  - name: tea-original
+    x: 3386
+    y: 968
+    width: 306
+    height: 340
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 5
+  - name: tomato-sauce
+    x: 3390
+    y: 264
+    width: 306
+    height: 313
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 3
+  - name: tray
+    x: 0
+    y: 1327
+    width: 973
+    height: 721
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 15
+    paddingTop: 14
+    paddingBottom: 15
+  - name: tutorial-button
+    x: 2997
+    y: 1309
+    width: 436
+    height: 388
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 19
+    paddingTop: 13
+    paddingBottom: 19
+  - name: unagi-sushi-(eel)
+    x: 2553
+    y: 29
+    width: 468
+    height: 347
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 12
+    paddingTop: 53
+    paddingBottom: 0
+  - name: wasabi
+    x: 3693
+    y: 1032
+    width: 306
+    height: 312
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 3
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
